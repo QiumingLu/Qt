@@ -1,8 +1,11 @@
 #include "mainwindow.h"
+
+#include <QAction>
+
 #include "ui_mainwindow.h"
 #include "ui/uibookmanage.h"
 #include "ui/uiusermanage.h"
-#include <QAction>
+
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
