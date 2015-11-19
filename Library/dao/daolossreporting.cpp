@@ -17,7 +17,7 @@ DaoLossReporting::DaoLossReporting()
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -38,7 +38,7 @@ bool DaoLossReporting::Add(LossReporting *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -58,7 +58,7 @@ bool DaoLossReporting::Delete(LossReporting *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -78,7 +78,7 @@ bool DaoLossReporting::Update(LossReporting *pObj)
  * @return
  * QVector<LossReporting*>
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

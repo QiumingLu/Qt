@@ -17,7 +17,7 @@ DaoBookCateGory::DaoBookCateGory()
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -38,7 +38,7 @@ bool DaoBookCateGory::Add(BookCateGory *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -59,7 +59,7 @@ bool DaoBookCateGory::Delete(BookCateGory *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -80,7 +80,7 @@ bool DaoBookCateGory::Update(BookCateGory *pObj)
  * @return
  * QVector<BookCateGory*>
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

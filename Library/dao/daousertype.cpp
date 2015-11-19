@@ -17,7 +17,7 @@ DaoUserType::DaoUserType()
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -37,7 +37,7 @@ bool DaoUserType::Add(UserType *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -57,7 +57,7 @@ bool DaoUserType::Delete(UserType *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -77,7 +77,7 @@ bool DaoUserType::Update(UserType *pObj)
  * @return
  * QVector<UserType*>
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

@@ -43,7 +43,7 @@ BaseDao::BaseDao()
  * void
  * @return bool
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -71,7 +71,7 @@ bool BaseDao::closeDB()
  * void
  * @return bool
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -88,7 +88,7 @@ bool BaseDao::transaction()
  * @arg void
  * @return bool
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  * @test
  * no
  */
@@ -114,7 +114,7 @@ bool BaseDao::commit()
  * 本函数默认是为insert写的存储过程，默认是插入所有的信息，out是信息主要是返回id
  * 输出的信息，通过pObj返回
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  * @test
  * no
  */
@@ -188,7 +188,7 @@ bool BaseDao::call_proc(QObject *pObj, const QString &proc_name,
  * 本函数默认是为insert写的存储过程，默认是插入所有的信息，out是信息主要是返回id
  * 输出的信息，通过pObj返回
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  * @test
  * no
  */
@@ -212,7 +212,7 @@ bool BaseDao::call_proc(QObject *pObj, const QString &proc_name,
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -235,7 +235,7 @@ bool BaseDao::Insert(QObject *pObj, const QString &tableName)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -283,7 +283,7 @@ bool BaseDao::Insert(QObject *pObj, const QString &tableName, const QStringList 
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -309,7 +309,7 @@ bool BaseDao::Update(QObject *pObj, const QString &tableName, const QStringList 
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -385,7 +385,7 @@ bool BaseDao::Update(QObject *pObj, const QString &tableName, const QStringList 
  * @remark
  * 本函数只是为只有一个条件做准备的
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -410,7 +410,7 @@ bool BaseDao::Delete(QObject *pObj, const QString &tableName, const QString &con
  * @remark
  * 本函数支持多条件拼接
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -455,7 +455,7 @@ bool BaseDao::Delete(QObject *pObj, const QString &tableName, const QStringList 
  * @remark
  * 本函数仅支持多个条件的查询
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QRetVec BaseDao::Select(QObject *pObj, const QString &tableName,
                         const QStringList &outFields, const QStringList &conditions)
@@ -519,7 +519,7 @@ QRetVec BaseDao::Select(QObject *pObj, const QString &tableName,
  * @remark
  * 本函数仅支持一个条件的查询
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QRetVec BaseDao::Select(QObject *pObj, const QString &tableName, const QString &condition)
 {
@@ -540,7 +540,7 @@ QRetVec BaseDao::Select(QObject *pObj, const QString &tableName, const QString &
  * @remark
  * 本函数仅支持多个条件的查询
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QRetVec BaseDao::Select(QObject *pObj, const QString &tableName, const QStringList &conditions)
 {
@@ -564,7 +564,7 @@ QRetVec BaseDao::Select(QObject *pObj, const QString &tableName, const QStringLi
  * @remark
  * 本函数仅支持多个条件的查询
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QRetVec BaseDao::Select(QObject *pObj, const QString &tableName,
                         const QStringList &outFields, const QString &condition)
@@ -584,7 +584,7 @@ QRetVec BaseDao::Select(QObject *pObj, const QString &tableName,
  * @return QRetVec
  * 需要注意本函数仅能处理曾删改操作
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 bool BaseDao::callADUSql(QObject *pObj, const QString &sql, const QStringList &fields)
 {
@@ -620,7 +620,7 @@ bool BaseDao::callADUSql(QObject *pObj, const QString &sql, const QStringList &f
  * @return QRetVec
  * 需要注意本函数仅能处理查询操作
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QRetVec BaseDao::callSelectSql(QObject *pObj, const QString &sql,
                             const QStringList &inFields, const QStringList &outFields)
@@ -665,7 +665,7 @@ QRetVec BaseDao::callSelectSql(QObject *pObj, const QString &sql,
  * sql const QString&       [In] 待执行的sql语句
  *
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 QVariant BaseDao::callSql(const QString &sql)
 {
@@ -723,7 +723,7 @@ QVariant BaseDao::callSql(const QString &sql, QList<QVariant> conditions)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  */
 bool BaseDao::callProc(const QString &proc_name, QList<QVariant> &inFields,
                        QList<QVariant> &outFields, bool isOutputDebug)
@@ -781,7 +781,7 @@ bool BaseDao::callProc(const QString &proc_name, QList<QVariant> &inFields,
  * nSize int [In] 输入问号的数量
  * @return QString
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -808,7 +808,7 @@ QString BaseDao::makeQuestionMarkList(int nSize)
  * @return QStringList
  * 返回列表属性
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

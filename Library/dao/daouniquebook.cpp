@@ -17,7 +17,7 @@ DaoUniqueBook::DaoUniqueBook()
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -38,7 +38,7 @@ bool DaoUniqueBook::Add(UniqueBook *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -59,7 +59,7 @@ bool DaoUniqueBook::Delete(UniqueBook *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -79,7 +79,7 @@ bool DaoUniqueBook::Update(UniqueBook *pObj)
  * @return
  * QVector<UniqueBook*>
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

@@ -18,7 +18,7 @@ DaoMemberLevel::DaoMemberLevel()
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -39,7 +39,7 @@ bool DaoMemberLevel::Add(MemberLevel *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -59,7 +59,7 @@ bool DaoMemberLevel::Delete(MemberLevel *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -79,7 +79,7 @@ bool DaoMemberLevel::Update(MemberLevel *pObj)
  * @return
  * QVector<MemberLevel*>
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

@@ -18,7 +18,7 @@ DaoManagers::DaoManagers()
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -42,7 +42,7 @@ bool DaoManagers::Add(Managers *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -62,7 +62,7 @@ bool DaoManagers::Delete(Managers *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -82,7 +82,7 @@ bool DaoManagers::Update(Managers *pObj)
  * @return
  * QVector<Managers*>
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

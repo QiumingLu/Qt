@@ -17,7 +17,7 @@ DaoBorrow::DaoBorrow()
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -39,7 +39,7 @@ bool DaoBorrow::Add(Borrow *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -60,7 +60,7 @@ bool DaoBorrow::Delete(Borrow *pObj)
  * true 执行成功
  * false 执行失败
  * @auhotr
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -80,7 +80,7 @@ bool DaoBorrow::Update(Borrow *pObj)
  * @return
  * QVector<Borrow*>
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

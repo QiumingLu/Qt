@@ -18,7 +18,7 @@ DaoReaders::DaoReaders()
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -46,7 +46,7 @@ bool DaoReaders::Add(Readers *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -66,7 +66,7 @@ bool DaoReaders::Delete(Readers *pObj)
  * true 执行成功
  * false 执行失败
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */
@@ -92,7 +92,7 @@ bool DaoReaders::Update(Readers *pObj)
  * @return
  * QVector<Readers*>
  * @author
- * QiumingLu Email:12281116@bjtu.edu.cn
+ * QiumingLu Email:cming_cs@163.com
  * @test
  * no
  */

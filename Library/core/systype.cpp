@@ -1,5 +1,7 @@
 #include "systype.h"
 #include <QMessageBox>
+#include <iterator>
+
 #include "model/sysenviroment.h"
 #include "dao/daouser.h"
 #include "model/user.h"
@@ -23,7 +25,6 @@
 #include "dao/daousertype.h"
 #include "dao/DaoHeader.h"
 #include "core/sysinclude.h"
-#include <iterator>
 #include "model/sysenviroment.h"
 
 template <typename T>

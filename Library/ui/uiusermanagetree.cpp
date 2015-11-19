@@ -26,7 +26,7 @@ UIUserManageTree::~UIUserManageTree()
  * @return
  * void
  * @author
- * QiumingLu Email: 12281116@bjtu.edu.cn
+ * QiumingLu Email: cming_cs@163.com
  * @test
  */
 void UIUserManageTree::makeTreeWidgetItem(QStringList itemList,
