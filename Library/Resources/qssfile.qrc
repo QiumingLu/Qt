@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/LibraryLogon.png</file>
+        <file>../images/LibraryLogon.png</file>
+        <file>../../build-Library-Desktop_Qt_5_3_MinGW_32bit-Debug/images/LibraryLogon.png</file>
+    </qresource>
+</RCC>

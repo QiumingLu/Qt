@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LibraryLogon.png</file>
+        <file>001.png</file>
+        <file>000.jpg</file>
+        <file>002.png</file>
+        <file>003.png</file>
+        <file>004.png</file>
+        <file>005.jpg</file>
+        <file>006.jpg</file>
+    </qresource>
+</RCC>
